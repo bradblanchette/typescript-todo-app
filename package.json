@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/bradblanchette/typescript-todo-app/issues"
   },
-  "homepage": "https://github.com/bradblanchette/typescript-todo-app#readme"
+  "homepage": "https://github.com/bradblanchette/typescript-todo-app#readme",
+  "devDependencies": {
+    "typescript": "^6.0.3"
+  }
 }
