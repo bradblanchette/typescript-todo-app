@@ -10,4 +10,7 @@ export class TodoStore {
             completed: false
         });
     }
+    get(completed: boolean = false): Todo[] {
+        return this.todos.filter(todo => todo.completed === completed);
+    }
 }
