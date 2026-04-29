@@ -13,4 +13,9 @@ export class TodoStore {
     get(completed: boolean = false): Todo[] {
         return this.todos.filter(todo => todo.completed === completed);
     }
+    update(id: number, text: string, completed: boolean): void {
+        this.todos = this.todos.map(todo => 
+            todo.id === id ? { ...todo, text: text, completed: completed} : todo
+        );
+    }
 }
