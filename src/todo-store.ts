@@ -18,4 +18,7 @@ export class TodoStore {
             todo.id === id ? { ...todo, text: text, completed: completed} : todo
         );
     }
+    delete(id: number): void {
+        this.todos = this.todos.filter(todo => todo.id !== id);
+    }
 }
