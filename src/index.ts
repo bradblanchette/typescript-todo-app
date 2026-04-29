@@ -1,0 +1,1 @@
+import { DomControl } from './dom';
