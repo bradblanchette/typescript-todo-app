@@ -1,4 +1,4 @@
-import { TodoStore } from './todo-store';
+import { TodoStore } from './todo-store.js';
 
 export class DomControl {
     private container: HTMLElement;

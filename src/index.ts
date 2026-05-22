@@ -1,1 +1,1 @@
-import { DomControl } from './dom';
+import { DomControl } from './dom.js';
