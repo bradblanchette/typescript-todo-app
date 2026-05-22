@@ -9,4 +9,11 @@ export class DomControl {
         }
         this.container = element;
     }
+    domElementExists(id: string) {
+        const element = document.getElementById(id);
+        if(!element) {
+            return false;
+        }
+        return true;
+    }
 }
